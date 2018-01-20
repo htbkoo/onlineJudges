@@ -2,8 +2,8 @@ function twoSum(nums, target) {
     // const sorted = nums.slice().sort((a, b) => a - b);
     const sorted = nums.slice();
     const length = sorted.length;
-    for (let i = 0; i < length; i++) {
-        for (let j = 0; j < length; j++) {
+    for (let i = 0; i < length - 1; i++) {
+        for (let j = i + 1; j < length; j++) {
             if (j === i) {
                 continue;
             }
