@@ -6,6 +6,16 @@ var reverseString = function(s) {
     return s.split("").reverse().join("");
 };
 
+// noinspection JSUnusedLocalSymbols
+var reverseStringAlternative = function(s) {let split = s.split("");
+    let result = "";
+    let length = split.length;
+    for (let c=length-1;c>=0;c--){
+        result+=split[c];
+    }
+    return result;
+};
+
 const chai = require("chai");
 
 describe("ReverseString", function () {
