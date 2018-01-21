@@ -2,16 +2,17 @@
  * @param {string} s
  * @return {string}
  */
-var reverseString = function(s) {
+var reverseString = function (s) {
     return s.split("").reverse().join("");
 };
 
 // noinspection JSUnusedLocalSymbols
-var reverseStringAlternative = function(s) {let split = s.split("");
+var reverseStringAlternative = function (s) {
+    let split = s.split("");
     let result = "";
     let length = split.length;
-    for (let c=length-1;c>=0;c--){
-        result+=split[c];
+    for (let c = length - 1; c >= 0; c--) {
+        result += split[c];
     }
     return result;
 };
