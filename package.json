@@ -1,0 +1,14 @@
+{
+  "name": "leetCode",
+  "version": "0.1.0",
+  "description": "repo for solving leetCode problems",
+  "main": "index.js",
+  "repository": "https://bitbucket.org/htbkoo/leetcode",
+  "author": "hey",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
