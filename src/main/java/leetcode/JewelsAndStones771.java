@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class Jewels_and_Stones_771 {
+public class JewelsAndStones771 {
     public int numJewelsInStonesFor(String J, String S) {
         Map<Character, Integer> occurrences = new HashMap<>();
         final char[] chars = S.toCharArray();
