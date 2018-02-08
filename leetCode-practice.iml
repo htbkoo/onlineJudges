@@ -15,5 +15,8 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.spockframework:spock-core:1.1-groovy-2.4-rc-2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy-all:2.4.6" level="project" />
+    <orderEntry type="library" name="chai-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="mocha-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="sinon-DefinitelyTyped" level="application" />
   </component>
 </module>
