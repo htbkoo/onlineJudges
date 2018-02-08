@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Array_Partition_I_561 {
+public class ArrayPartitionI561 {
 //    private static final int RANGE_MIN = -10000, RANGE_MAX = 10000;
 
     public int arrayPairSum(int[] nums) {

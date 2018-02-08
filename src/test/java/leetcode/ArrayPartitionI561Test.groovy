@@ -3,11 +3,11 @@ package leetcode
 import spock.lang.Specification
 import spock.lang.Unroll
 
-class Array_Partition_I_561Test extends Specification {
+class ArrayPartitionI561Test extends Specification {
     @Unroll
     def "should findMinArrayPairSum(#nums)"() {
         given:
-        def sut = new Array_Partition_I_561()
+        def sut = new ArrayPartitionI561()
 
         when:
         def count = sut.arrayPairSum(nums)
