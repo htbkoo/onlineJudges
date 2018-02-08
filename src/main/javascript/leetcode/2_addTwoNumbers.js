@@ -5,7 +5,7 @@
  *     this.next = null;
  * }
  */
-var ListNode = require("./util/ListNode");
+var ListNode = require("../util/ListNode");
 
 /**
  * @param {ListNode} l1
