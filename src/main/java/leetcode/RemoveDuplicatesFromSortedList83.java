@@ -11,7 +11,7 @@ import leetcode.util.ListNode;
  * }
  */
 public class RemoveDuplicatesFromSortedList83 {
-    public ListNode deleteDuplicates(ListNode head) {
+    public ListNode deleteDuplicatesLessCleanCode(ListNode head) {
         if (head == null) {
             return null;
         }
@@ -27,6 +27,19 @@ public class RemoveDuplicatesFromSortedList83 {
             }
             curr = curr.next;
         }
+        return head;
+    }
+
+    public ListNode deleteDuplicates(ListNode head) {
+        ListNode current = head;
+        while (current != null && current.next != null) {
+            if (current.next.val == current.val) {
+                current.next = current.next.next;
+            } else {
+                current = current.next;
+            }
+        }
+
         return head;
     }
 }
