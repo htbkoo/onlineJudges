@@ -6,7 +6,7 @@ import spock.lang.Unroll
 
 class FindBottomLeftTreeValue513Test extends Specification {
     @Unroll
-    def "should countBattershipe()"() {
+    def "should findBottomLeftValue()"() {
         given:
         def sut = new FindBottomLeftTreeValue513()
 
