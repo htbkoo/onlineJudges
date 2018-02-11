@@ -12,10 +12,10 @@ class RemoveDuplicatesFromSortedList83Test extends Specification {
         def head = ListNode.from(list)
 
         when:
-        sut.deleteDuplicates(head)
+        def node = sut.deleteDuplicates(head)
 
         then:
-        head == ListNode.from(expected)
+        node == ListNode.from(expected)
 
         where:
         list               | expected
