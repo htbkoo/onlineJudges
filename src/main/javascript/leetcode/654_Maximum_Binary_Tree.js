@@ -33,6 +33,7 @@ var constructMaximumBinaryTree = function (nums) {
     }
 };
 
+/*
 const chai = require("chai");
 
 describe("constructMaximumBinaryTree", function () {
@@ -47,3 +48,4 @@ describe("constructMaximumBinaryTree", function () {
         })
     );
 });
+*/
